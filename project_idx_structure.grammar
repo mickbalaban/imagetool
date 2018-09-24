@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ufwb version="1.16">
+    <grammar name="New grammar" start="id:17" author="Mick Balaban" uti="public.data">
+        <description>Grammar for my file format</description>
+        <structure name="File" id="17" encoding="ISO_8859-1:1987" endian="big" signed="no">
+            <string name="file type id" id="18" fillcolor="FFAFF0" type="fixed-length" length="32" encoding="UTF-8"/>
+            <string name="project idx" id="19" fillcolor="F9FCA3" type="fixed-length" length="8" encoding="UTF-8"/>
+            <string name="project name" id="20" fillcolor="BF2243" type="fixed-length" length="32" encoding="UTF-8"/>
+            <number name="total jobs" id="21" fillcolor="B5BA00" type="integer" length="1"/>
+        </structure>
+    </grammar>
+</ufwb>
